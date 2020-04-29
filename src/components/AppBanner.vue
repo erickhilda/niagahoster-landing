@@ -58,14 +58,14 @@ export default {
 .hero__title {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  color: #000000;
+  color: #4c4c4c;
   margin-bottom: 14px;
 }
 
 .hero__subtitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  color: #000000;
+  color: #4c4c4c;
   margin-bottom: 20px;
 }
 
