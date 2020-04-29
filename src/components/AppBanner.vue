@@ -2,7 +2,7 @@
   <div class="border-bottom">
     <b-container>
       <b-row align-content="start" class="hero">
-        <b-col cols="" class="text-left">
+        <b-col cols="12" lg="6" class="text-left">
           <h3 class="hero__title">PHP Hosting</h3>
           <h3 class="hero__subtitle">
             Cepat, handal, penuh dengan modul PHP yang anda butuhkan
@@ -21,9 +21,10 @@
             </b-media>
           </ul>
         </b-col>
-        <b-col class="text-right">
+        <b-col cols="12" class="text-right" lg="6">
           <b-img
-            width="420"
+            width="400"
+            fluid=""
             :src="
               require('../assets/svg/illustration banner PHP hosting-01.svg')
             "
@@ -71,6 +72,6 @@ export default {
 .hero__list {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
 }
 </style>
